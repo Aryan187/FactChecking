@@ -20,5 +20,3 @@ out_json = json.dumps(list(selected_data),indent=1)
 
 with open('football_all.json',"w") as out:
 	out.write(out_json)
-
-print(len(selected_data))
